@@ -1,0 +1,35 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: red;
+}
+
+.nav {
+  background-color: blue;
+}
+
+.projects {
+  background-color: green;
+}
+
+.announcements {
+  background-color: yellow;
+}
+
+.trending {
+  background-color: magenta;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows:
+    1fr,
+    1fr,
+    1fr 1fr 1fr;
+}
