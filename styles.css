@@ -12,9 +12,18 @@ html {
 }
 
 .nav {
-  background-color: blue;
+  background-color: #1992d4;
+  color: white;
   grid-column: 1 / 2;
   grid-row: 1 / 5;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+.nav ul li {
+  list-style-type: none;
 }
 
 .projects {
