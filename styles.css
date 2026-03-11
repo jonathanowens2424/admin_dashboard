@@ -14,6 +14,59 @@ html {
 .header-first-row,
 .header-second-row {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-first-row input {
+  height: 2rem;
+  background: #e2e8f0;
+  border: none;
+  width: 500px;
+  border-radius: 20px;
+  padding: 0 1rem;
+  outline: none;
+}
+
+.profile-picture-greeting {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 1em;
+}
+
+.header-links {
+  margin-right: 1em;
+  min-width: 200px;
+}
+.header-first-row svg {
+  height: 30px;
+}
+
+.header-first-row h2 {
+  padding: 0 2rem;
+}
+
+.header-first-row img,
+.header-second-row img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.header-second-row img {
+  height: 60px;
+  width: 60px;
+}
+
+.header-btn {
+  background-color: #1992d4;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 25px;
+  color: white;
 }
 
 .nav {
