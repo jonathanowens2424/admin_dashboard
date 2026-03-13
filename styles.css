@@ -43,8 +43,16 @@ html {
   height: 30px;
 }
 
-.header-first-row h2 {
-  padding: 0 2rem;
+.header-first-row div {
+  display: flex;
+  gap: 15px;
+  margin-left: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-first-row div:nth-child(2) {
+  margin-right: 2rem;
 }
 
 .header-first-row img,
@@ -74,6 +82,7 @@ html {
   color: white;
   grid-column: 1 / 2;
   grid-row: 1 / 5;
+  height: 100vh;
 }
 
 .nav ul {
@@ -82,6 +91,19 @@ html {
 }
 .nav ul li {
   list-style-type: none;
+}
+
+.nav div {
+  display: flex;
+  align-items: center;
+}
+
+.nav div:nth-child(6) {
+  margin-bottom: 6rem;
+}
+.nav svg {
+  height: 40px;
+  fill: white;
 }
 
 .projects {
