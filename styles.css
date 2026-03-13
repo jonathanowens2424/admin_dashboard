@@ -104,12 +104,40 @@ html {
 .nav svg {
   height: 40px;
   fill: white;
+  margin: 0rem 1rem;
 }
 
 .projects {
   background-color: #e2e8f0;
   grid-column: 2 / 4;
   grid-row: 2 / 5;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-left: #f1b323 8px solid;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+
+.card svg {
+  height: 40px;
+}
+
+.card-icons {
+  align-self: end;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .announcements {
@@ -118,9 +146,49 @@ html {
   grid-row: 2 /4;
 }
 
+.announcements-tab {
+  background-color: #ffffff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.announcements-tab div {
+  border-bottom: 2px solid #d2d2d2;
+}
+
+.announcements-tab div:nth-last-child(1) {
+  border: none;
+}
+
 .trending {
   background-color: #e2e8f0;
   grid-row: 4 /5;
+}
+
+.trends {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  gap: 20px;
+  padding: 20px;
+}
+
+.trending img {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.trending-topic {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.trending-topic p {
+  margin: 0;
 }
 
 .container {
